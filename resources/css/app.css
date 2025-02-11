@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply text-slate-700;
+    }
+
+    .pl-6{
+        padding-left: 2rem !important;
+    }
+}
+
+
+@layer components {
+    .container {
+        @apply mx-auto px-4;
+    }
+}
